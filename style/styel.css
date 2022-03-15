@@ -25,6 +25,7 @@ header{
     background-color: white;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 20px;
     width: 800px; 
     border-radius: 3px;
 }
@@ -62,6 +63,23 @@ header{
 
 hr{
     border: solid rgb(229, 237, 240) ;
+}
+
+.task{
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.newtask{
+    margin-bottom: 20px;
+}
+
+.today{
+    margin-bottom: 20px;
+}
+
+.upcoming{
+    padding-bottom: 30px;
 }
 
 .circlegreen{
