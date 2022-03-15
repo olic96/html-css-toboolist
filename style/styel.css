@@ -6,15 +6,57 @@
 
 body{
     font-family: 'Roboto';
+    background-color: rgb(229, 237, 240);
 }
 
 header{
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 5px;
+    background-color: white;
 }
 
 .title{
     display: inline-block;
     vertical-align: top;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 800px;
+    
+}
+
+.buttons{
+    background-color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+
+}
+
+.button1{
+    display: inline-block;
+    background-color: rgb(14, 163, 255);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+.button2{
+    display: inline-block;
+    background-color: white;
+    color: lightgray;
+    border: solid;
+    border-color: lightgray;
+    font-size: 12px;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px
 }
