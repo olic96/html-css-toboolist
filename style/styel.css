@@ -22,19 +22,18 @@ header{
 }
 
 .container{
+    background-color: white;
     margin: 0 auto;
     margin-top: 30px;
-    width: 800px;
-    
+    width: 800px; 
+    border-radius: 3px;
 }
 
 .buttons{
-    background-color: white;
+    
     padding-left: 70px;
     padding-top: 10px;
     padding-bottom: 5px;
-    border-radius: 3px;
-
 }
 
 .button1{
@@ -60,3 +59,39 @@ header{
     padding-left: 15px;
     border-radius: 3px
 }
+
+hr{
+    border: solid rgb(229, 237, 240) ;
+}
+
+.circle{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    color: green;
+    
+}
+
+.text {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.tag{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(14, 163, 255);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
