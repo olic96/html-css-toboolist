@@ -64,7 +64,7 @@ hr{
     border: solid rgb(229, 237, 240) ;
 }
 
-.circle{
+.circlegreen{
     display: inline-block;
     height: 17px;
     width: 17px;
@@ -73,6 +73,18 @@ hr{
     text-align: center;
     line-height: 17px;
     color: green;
+    
+}
+
+.circlered{
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    color: red;
     
 }
 
@@ -95,3 +107,67 @@ hr{
 
 }
 
+.tagviolet{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(156, 114, 228);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
+.taggreen{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(100, 192, 169);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
+.tagorange{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(246, 158, 51);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
+.tagpink{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(216, 99, 161);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
+
+.taglightgreen{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    background-color: rgb(176, 201, 38);
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+
+}
